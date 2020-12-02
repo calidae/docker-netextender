@@ -26,9 +26,6 @@ RUN \
 COPY run.sh /vpn/
 RUN chmod u+x /vpn/run.sh
 
-COPY netextender /vpn/
-RUN chmod u+x /vpn/netextender
-
 COPY gateway-fix.sh /gateway-fix.sh
 RUN chmod u+x /gateway-fix.sh
 

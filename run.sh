@@ -20,4 +20,4 @@ done
 # on the VPN device. In case there will be any the script deletes it.
 /gateway-fix.sh &
 
-/vpn/netextender
+exec netExtender --username $VPN_USER --password $VPN_PASS --domain $VPN_DOMAIN --ppp-sync --auto-reconnect $VPN_SERVER
